@@ -25,3 +25,4 @@ Depois disso, o usuário pode digitar uma pergunta.
 
 O programa gera o embedding da pergunta e utiliza o ChromaDB para fazer uma busca por similaridade vetorial, recuperando os chunks mais relevantes da base de conhecimento
 Esses resultados são separados e usados como contexto para a IA gerar a resposta final.
+(tem que instalar as dependências do chromadb, openai, e dotenv) 
